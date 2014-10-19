@@ -16,11 +16,6 @@ public class MapCreatorPlugin extends JavaPlugin {
 	public void onEnable() {
 	}
 	
-	public void registerListeners(){
-		Utils u = this.getUtils();
-		u.registerListener(new ConnectionListener(this));
-	}
-	
 	public PluginManager getPluginManager() {
 		return this.pm;
 	}
